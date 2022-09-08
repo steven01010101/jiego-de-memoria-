@@ -1,7 +1,7 @@
 body {
     height: 100vh;
     width: 70%;
-    background-image: url("../img/olol.jpeg");
+    background-image: url("../img/olol.jpg");
     background-size: cover;
     background-size: 100% 100%;
     object-fit: scale-down;
@@ -77,7 +77,7 @@ body {
   
   .cabecera-num {
     font-family: var(--font-display);
-    color: #0aa3a3;
+    color: #4b0303;
     font-weight: 400;
     font-size: 2.1rem;
     line-height: 0.9;
@@ -115,7 +115,7 @@ body {
     margin-top: 1rem;
     border-radius: 0.9em;
     background-image: var(--gradient);
-    box-shadow: 1px 1px 3px rgba(196, 204, 203, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 3px rgba(83, 6, 6, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.2);
     position: relative;
     transition: 0.3s;
     cursor: pointer;
@@ -131,7 +131,7 @@ body {
     bottom: 0;
     transform: rotateY(-180deg);
     backface-visibility: hidden;
-    background-color: rgb(15, 160, 34);
+    background-color: rgb(255, 255, 255);
     box-shadow: 1px 1px 3px rgba(128, 4, 101, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.2);
     border-radius: 0.3em;
     display: flex;
@@ -217,7 +217,7 @@ body {
   }
   
   .modal {
-    background: rgb(180, 14, 14);
+    background: rgb(87, 4, 4);
     padding: 4rem 3rem 4rem;
     margin: auto;
     text-align: center;
@@ -226,7 +226,7 @@ body {
     align-items: center;
     justify-content: space-between;
     border-radius: 10px;
-    box-shadow: 1px 1px 3px rgba(146, 64, 64, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 3px rgba(59, 201, 201, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.2);
   }
   
   .modal h2 {
@@ -249,7 +249,7 @@ body {
     background-image: var(--gradient);
     padding: 0.75rem 4rem;
     border-radius: 5rem;
-    color: rgb(0, 0, 0);
+    color: rgb(231, 226, 226);
     font-family: var(--font-display);
     font-weight: 600;
     text-transform: uppercase;
@@ -293,7 +293,7 @@ body {
     line-height: 0.68rem;
     display: flex;
     justify-content: center;
-    background: #0df0e4;
+    background: #000000;
   }
   
   .control-oculto {
@@ -301,7 +301,7 @@ body {
   }
   
   .selecciona-nivel {
-    background-color: #e6a688;
+    background-color: #000000;
     position: fixed;
     width: 250px;
     right: 0;
@@ -343,13 +343,13 @@ body {
   @media (max-width: 600px) {
     body {
       background-image: none;
-      background-color: #05ebd7;
+      background-color: #ffffff;
     }
   
     .cabecera {
       width: 100%;
       justify-content: space-between;
-      background-color: #ffff;
+      background-color: rgb(0, 0, 0);
     }
   
     .cabecera-titulo {
@@ -365,7 +365,7 @@ body {
     }
     button {
       background-image: none;
-      color: rgb(7, 7, 7);
+      color: rgb(255, 251, 251);
       width: 2rem;
       min-width: 10rem;
       font-size: 1rem;

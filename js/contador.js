@@ -16,7 +16,7 @@ function actualizaContador() {
   
   function maxContador() {
     var movimientosMaxTexto = niveles[nivelActual].movimientosMax;
-    if (movimientosMaxTexto < 10) {
+    if (movimientosMaxTexto < 12) {
       movimientosMaxTexto = "0" + movimientosMaxTexto;
     }
     document.querySelector("#mov-total").innerText = movimientosMaxTexto;
